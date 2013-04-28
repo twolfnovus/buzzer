@@ -1,5 +1,5 @@
 var SerialPort = require("serialport").SerialPort
-var serialPort = new SerialPort("/dev/tty.usbserial-A600JSRZ", {
+var serialPort = new SerialPort("/dev/tty.BLUESMIRF-SPP", {
   baudrate: 115200
 }, false);
   
